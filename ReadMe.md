@@ -15,26 +15,26 @@
 
 ### Atrybuty:
 - Podane wartości powinny zostać umieszczone w odpowiednich miejscach miedzy znakami " "
-    - ⋅⋅⋅justjoinit:
-        - ⋅⋅⋅city: remote, warszwa, krakow, wroclaw, poznan trojmiasto, slask, bydgoszcz, bielsko-biala, bialystok, czestochowa, kielce, lublin, lodz, olsztyn, opole, rzeszow, szczecin, torun, zielona_gora, new-york, sydney, berlin, san-francisco, london
+    - justjoinit:
+        - city: remote, warszwa, krakow, wroclaw, poznan trojmiasto, slask, bydgoszcz, bielsko-biala, bialystok, czestochowa, kielce, lublin, lodz, olsztyn, opole, rzeszow, szczecin, torun, zielona_gora, new-york, sydney, berlin, san-francisco, london
 
-        - ⋅⋅⋅technology: html, php, ruby, python, java, net, scala, c, mobile, testing, devops, ux/ui, pm, game, analytics, security, data, go, support, erp, architecture, other
+        - technology: html, php, ruby, python, java, net, scala, c, mobile, testing, devops, ux/ui, pm, game, analytics, security, data, go, support, erp, architecture, other
 
-        - ⋅⋅⋅role: junior, mid, senior
+        - role: junior, mid, senior
 
-    - ⋅⋅⋅bulldog:
-        - ⋅⋅⋅city: Kraków, Remote, Abroad, Warszawa, Wrocław, Śląsk, Trójmiasto, Łódź, Lublin, Białystok, Kielce, Szczecin, Toruń, Częstochowa, Piła, Rzeszów, Bydgoszcz
+    - bulldog:
+        - city: Kraków, Remote, Abroad, Warszawa, Wrocław, Śląsk, Trójmiasto, Łódź, Lublin, Białystok, Kielce, Szczecin, Toruń, Częstochowa, Piła, Rzeszów, Bydgoszcz
 
-        - ⋅⋅⋅technology: Java, JavaScript, Python, C%23, C++, PHP, Swift, Kotlin, Ruby
+        - technology: Java, JavaScript, Python, C%23, C++, PHP, Swift, Kotlin, Ruby
 
-        - ⋅⋅⋅role: junior, medium, senior
+        - role: junior, medium, senior
         
-    - ⋅⋅⋅nofluffjobs:
-        - ⋅⋅⋅city: warszawa, krakow, wroclaw, gdansk, poznan, trojmiasto, katowice, slask, lodz, bialystok, gdynia, lublin, rzeszow, bydgoszcz, gliwice, czestochowa, szczecin, sopot
+    - nofluffjobs:
+        - city: warszawa, krakow, wroclaw, gdansk, poznan, trojmiasto, katowice, slask, lodz, bialystok, gdynia, lublin, rzeszow, bydgoszcz, gliwice, czestochowa, szczecin, sopot
         
-        - ⋅⋅⋅technology: .NET, SQL, Java, Python, React, AWS, TypeScript, HTML, Angular, Azure, PHP, C%2B%2B, Android, Kotlin, Vue.js, iOS, Golang, Spark, Scala, C, Hadoop, Ruby, Flutter, Elixir, C%23
+        - technology: .NET, SQL, Java, Python, React, AWS, TypeScript, HTML, Angular, Azure, PHP, C%2B%2B, Android, Kotlin, Vue.js, iOS, Golang, Spark, Scala, C, Hadoop, Ruby, Flutter, Elixir, C%23
 
-        - ⋅⋅⋅role: trainee, junior, mid, senior, expert
+        - role: trainee, junior, mid, senior, expert
 
 ### Uwagi:
 #### Pierwsze uruchomienie programu wygeneruje pliki korespondujące ofertom znalezionym na poszczególnych portalach. Pliki te następnie są scalane w plik "offers.txt". Domyślnym zastosowaniem programu jest wywoływanie go np. raz w tygodniu, co sprawdzi czy pojawiły się nowe ofery.
@@ -47,10 +47,10 @@
 
 ### Przed uruchomnieniem:
 
-    ⋅⋅⋅W terminalu wpisz polecenie:
-        ⋅⋅⋅pip install -r req.txt
+    W terminalu wpisz polecenie:
+        pip install -r req.txt
     
-    ⋅⋅⋅Zajrzyj do pliku main.py. Domyślnymi wartościami wyszkiwanymi dla wszytkich stron jest pozycja juniora w technologii JavaSacript w Krakowie. Zmień poszczególne atrybuty aby spersonalizować poszukiwania. Ważne żeby zmienić adres email na który wysyłana będzie wiadomość (linia 52 pliku main.py)
+    Zajrzyj do pliku main.py. Domyślnymi wartościami wyszkiwanymi dla wszytkich stron jest pozycja juniora w technologii JavaSacript w Krakowie. Zmień poszczególne atrybuty aby spersonalizować poszukiwania. Ważne żeby zmienić adres email na który wysyłana będzie wiadomość (linia 52 pliku main.py)
 
 ### Instrukcja uruchomienia:
-⋅⋅⋅python3 main.py
+python3 main.py
