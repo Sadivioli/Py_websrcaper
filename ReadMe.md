@@ -46,11 +46,10 @@
 #### Do wysyłania maili używamy API SendGrid które pozwala nam wysłać do 100 wiadomości dziennie co znacznie przekracza potrzeby projektu
 
 ### Przed uruchomnieniem:
-
-    W terminalu wpisz polecenie:
-        pip install -r req.txt
+W terminalu wpisz polecenie:
+    pip install -r req.txt
     
-    Zajrzyj do pliku main.py. Domyślnymi wartościami wyszkiwanymi dla wszytkich stron jest pozycja juniora w technologii JavaSacript w Krakowie. Zmień poszczególne atrybuty aby spersonalizować poszukiwania. Ważne żeby zmienić adres email na który wysyłana będzie wiadomość (linia 52 pliku main.py)
+#### Zajrzyj do pliku main.py. Domyślnymi wartościami wyszkiwanymi dla wszytkich stron jest pozycja juniora w technologii JavaSacript w Krakowie. Zmień poszczególne atrybuty aby spersonalizować poszukiwania. Ważne żeby zmienić adres email na który wysyłana będzie wiadomość (linia 52 pliku main.py)
 
 ### Instrukcja uruchomienia:
 python3 main.py
