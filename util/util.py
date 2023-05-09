@@ -40,3 +40,12 @@ def concatenate_and_save_files(file1, file2, file3, output_file):
         
     print(f"Wszystkie oferty zostały zapisane do pliku: {output_file}.")
 
+#function to delete files with given names, those will be files that are not needed anymore
+def delete_files(*args):
+    for file in args:
+        if os.path.isfile(file):
+            os.remove(file)
+            print(f"Usunięto plik: {file}.")
+        else:
+            print(f"Nie znaleziono pliku: {file}.")
+    print("Pliki tymczasowe zostały usunięte.")

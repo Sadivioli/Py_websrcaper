@@ -1,7 +1,7 @@
-from justjoinit import *
-from bulldog import *
-from nofluff import *
-from sender import *
+from src.justjoinit import *
+from src.bulldog import *
+from src.nofluff import *
+from util.sender import *
 
 #Dla justjoinit:
     #atrybuty możliwe do podania są w pliku readme w sekcji Atrybuty -> justjoinit
@@ -45,11 +45,13 @@ output_file = "offers.txt"
 
 concatenate_and_save_files(nf_file_name, jj_file_name, bd_file_name, output_file)
 
+#usuwanie plików tymczasowych
+delete_files(nf_file_name, jj_file_name, bd_file_name)
 
-#wysyłanie maila
+# #wysyłanie maila
 
-#adres na który ma zostać wysłany email. można użyć np. maila z https://temp-mail.org/
-to = 'your_email@example.com'
-subject = 'Mamy dla Ciebie nowe oferty pracy!'
-file_path = 'offers.txt'
-send_file_contents_if_long(file_path, to, subject, 7)
+# #adres na który ma zostać wysłany email. można użyć np. maila z https://temp-mail.org/
+# to = 'ninakeb672@dekaps.com'
+# subject = 'Mamy dla Ciebie nowe oferty pracy!'
+# file_path = 'offers.txt'
+# send_file_contents_if_long(file_path, to, subject, 7)
