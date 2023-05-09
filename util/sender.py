@@ -1,7 +1,7 @@
 import os
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
-from util import *
+from util.util import *
 
 def send_email(to, subject, file_path):
 

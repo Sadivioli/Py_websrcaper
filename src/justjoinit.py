@@ -1,6 +1,6 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
-from util import *
+from util.util import *
 
 keywords = ["Developer","Development", "developer","Engineering", "Engineer", "Design", "Designer", "Administrator", "Programmer", "Programista", "Analityk", "Test", "Tester", "Testing", "Application", "DevOps", "Technical", "Specialist", "IT", "Product", "Manager", "Research", "Projektant", "Analyst", "Architect", "Specjalista", "Consultant", "Support", "Admin", "Inżynier", "System", "Konsultant"]
 
